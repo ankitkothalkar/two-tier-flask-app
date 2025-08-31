@@ -23,7 +23,7 @@ services:
       start_period: 60s
 
   flask-app:
-    build: ankitkothalkar/two-tier-flask-app:latest   # ← YAHI MAIN CHANGE KIYA HAI
+     image: ankitkothalkar/two-tier-flask-app:latest    # ← YAHI MAIN CHANGE KIYA HAI
     container_name: flask-app
     ports:
       - "5000:5000"
